@@ -1,0 +1,125 @@
+* {
+    font-family: Lato;
+    font-size: 16px;
+    -webkit-transition: .5s;
+            transition: .5s;
+}
+
+ul {
+    position: absolute;
+    width: 10%;
+    left: 45%
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fafafa;
+
+}
+
+#setPos {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 15%;
+    height: 35px;
+    line-height: 35px;
+    background: tomato;
+    color: white;
+    border: 0px;
+    font-size: 120%;
+    font-weight: 100;
+}
+
+#bookmarks {
+    position: fixed;
+    left: 10px;
+    top: 65px;
+    width: 15%;
+    opacity: 1;
+}
+
+#bookmarks button {
+    background: #414141;
+    border: 0px solid;
+    color: #fafafa;
+    margin-left: 10px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+
+#bookmarks_title {
+    display: block;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    color: #414141;
+    font-size: 120%;
+    font-weight: 100;
+    width: 15%;
+
+}
+
+#remPos {
+    opacity: 0;
+    font-size: 100%;
+    font-weight: 100;
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    text-align: center;
+    left: 16%;
+    background: tomato;
+    border: 0px solid;
+    bottom: 10px;
+    color: #fafafa;
+    position: fixed;
+}
+
+button {
+    cursor: pointer;
+}
+
+#here {
+    opacity: 0;
+    font-size: 120%;
+    line-height: 35px;
+    height: 35px;
+    width: 200px;
+    font-weight: 400;
+    color: #414141;
+    display: block;
+    position: absolute;
+    right: 135px;
+    bottom: 40px;
+}
+
+.content, .content2 {
+		width: 45%;
+        font-size: 120%;
+        font-weight: 100;
+		margin: 0 auto;
+		padding: 10px;
+        color: #fafafa;
+}
+
+.content {
+    background-color: #414141;
+}
+
+.content2 {
+    background-color: #114141;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
